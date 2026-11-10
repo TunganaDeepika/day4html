@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>HTML Lists Practice</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .schedule {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+
+        .registration {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+
+        .roadmap {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        hr {
+            margin: 25px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- 1. Available Departments -->
+<h2>1. Available Departments</h2>
+
+<div class="container">
+    <div>
+        <h3>Engineering</h3>
+        <ul type="circle">
+            <li>Computer Science Engineering</li>
+            <li>Electronics and Communication Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Information Technology</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Sciences</h3>
+        <ul type="circle">
+            <li>Mathematics</li>
+            <li>Physics</li>
+            <li>Chemistry</li>
+            <li>Biotechnology</li>
+            <li>Environmental Science</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Arts & Management</h3>
+        <ul type="square">
+            <li>Management Studies</li>
+            <li>Commerce</li>
+            <li>Arts & Humanities</li>
+            <li>Social Sciences</li>
+            <li>Architecture</li>
+        </ul>
+    </div>
+</div>
+
+<hr>
+
+<!-- 2. Event Schedule -->
+<h2>2. Event Schedule</h2>
+
+<div class="schedule">
+
+    <div>
+        <h3>Day 1 – Registration Process</h3>
+        <ol>
+            <li>Online Registration</li>
+            <li>Document Verification</li>
+            <li>ID Card Collection</li>
+            <li>Inauguration Ceremony</li>
+            <li>Welcome Address</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Day 2 – Technical Events</h3>
+        <ol type="A">
+            <li>Coding Challenge</li>
+            <li>Web Development</li>
+            <li>Hackathon</li>
+            <li>Debugging</li>
+            <li>Project Expo</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Day 3 – Cultural Events</h3>
+        <ol type="a">
+            <li>Singing</li>
+            <li>Dancing</li>
+            <li>Drama</li>
+            <li>Fashion Show</li>
+            <li>Short Film Contest</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>General Process</h3>
+        <ol type="I">
+            <li>Examination</li>
+            <li>Evaluation</li>
+            <li>Result Preparation</li>
+            <li>Feedback Collection</li>
+            <li>Certificate Distribution</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Post Event Activities</h3>
+        <ol type="i">
+            <li>Clean Up</li>
+            <li>Submission of Reports</li>
+            <li>Team Meeting</li>
+            <li>Planning for Next Year</li>
+            <li>Closing Ceremony</li>
+        </ol>
+    </div>
+
+</div>
+
+<hr>
+
+<!-- 3. Student Registration Numbers -->
+<h2>3. Student Registration Numbers</h2>
+
+<div class="registration">
+
+    <div>
+        <h3>Numbers starting from 10</h3>
+        <ol start="10">
+            <li>Rahul</li>
+            <li>Priya</li>
+            <li>Akash</li>
+            <li>Sneha</li>
+            <li>Karthik</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Alphabetical starting from C</h3>
+        <ol type="A" start="3">
+            <li>Ananya</li>
+            <li>Bharath</li>
+            <li>Charan</li>
+            <li>Divya</li>
+            <li>Eshwar</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Alphabetical (Lowercase) starting from f</h3>
+        <ol type="a" start="6">
+            <li>Harsha</li>
+            <li>Ishita</li>
+            <li>Jagan</li>
+            <li>Kavya</li>
+            <li>Lokesh</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Roman starting from V</h3>
+        <ol type="I" start="5">
+            <li>Nikhil</li>
+            <li>Ramesh</li>
+            <li>Sravani</li>
+            <li>Teja</li>
+            <li>Venkata</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Lowercase Roman starting from x</h3>
+        <ol type="i" start="10">
+            <li>Manasa</li>
+            <li>Rohit</li>
+            <li>Sahana</li>
+            <li>Vijay</li>
+            <li>Meghana</li>
+        </ol>
+    </div>
+
+</div>
+
+<hr>
+
+<!-- 4. Top 10 Student Rankings -->
+<h2>4. Top 10 Student Rankings</h2>
+
+<h3>Rankings (Reversed)</h3>
+
+<ol reversed>
+    <li>Sai Kiran</li>
+    <li>Priya Sharma</li>
+    <li>Akash Reddy</li>
+    <li>Sneha Patel</li>
+    <li>Karthik Varma</li>
+    <li>Ananya Desai</li>
+    <li>Rohit Kumar</li>
+    <li>Divya Rao</li>
+    <li>Bharath Singh</li>
+    <li>Meera Iyer</li>
+</ol>
+
+<hr>
+
+<!-- 5. Competition Winners -->
+<h2>5. Competition Winners</h2>
+
+<h3>Event Winners</h3>
+
+<ol>
+    <li>Team Alpha</li>
+    <li>Team Bravo</li>
+    <li>Team Charlie</li>
+</ol>
+
+<ol start="10">
+    <li>Team Delta</li>
+    <li>Team Echo</li>
+    <li>Team Foxtrot</li>
+    <li>Team Golf</li>
+    <li>Team Hotel</li>
+</ol>
+
+<hr>
+
+<!-- 6. Full Stack Development Roadmap -->
+<h2>6. Full Stack Development Roadmap</h2>
+
+<div class="roadmap">
+
+    <div>
+        <h3>Frontend</h3>
+        <ol>
+            <li>HTML
+                <ul type="square">
+                    <li>List</li>
+                    <li>Table</li>
+                    <li>Forms</li>
+                </ul>
+            </li>
+
+            <li>CSS
+                <ul type="square">
+                    <li>Flexbox</li>
+                    <li>Grid</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </li>
+
+            <li>JavaScript
+                <ul type="square">
+                    <li>DOM</li>
+                    <li>Events</li>
+                    <li>API Integration</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Backend</h3>
+        <ol type="A">
+            <li>Java
+                <ul type="circle">
+                    <li>OOP</li>
+                    <li>Collections</li>
+                    <li>Exception Handling</li>
+                </ul>
+            </li>
+
+            <li>Spring Boot
+                <ul type="circle">
+                    <li>REST APIs</li>
+                    <li>Security</li>
+                    <li>JPA</li>
+                    <li>Microservices</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Database</h3>
+        <ol type="a">
+            <li>MySQL
+                <ul type="square">
+                    <li>DDL</li>
+                    <li>DML</li>
+                    <li>DQL</li>
+                </ul>
+            </li>
+
+            <li>MongoDB
+                <ul type="square">
+                    <li>Collections</li>
+                    <li>Queries</li>
+                    <li>Indexing</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+</div>
+
+<hr>
+
+<!-- 7. Technical Definitions -->
+<h2>7. Technical Definitions</h2>
+
+<ul>
+    <li>
+        <b>HTML</b>
+        <ul>
+            <li style="list-style:none">
+                HyperText Markup Language, used to create the structure of web pages.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <b>CSS</b>
+        <ul>
+            <li style="list-style:none">
+                Cascading Style Sheets, used for styling web pages.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <b>JavaScript</b>
+        <ul>
+            <li style="list-style:none">
+                A scripting language used to add interactivity to web pages.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <b>SQL</b>
+        <ul>
+            <li style="list-style:none">
+                Structured Query Language, used to manage data in databases.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <b>API</b>
+        <ul>
+            <li style="list-style:none">
+                Application Programming Interface, allows different software systems to communicate.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <b>JVM</b>
+        <ul>
+            <li style="list-style:none">
+                Java Virtual Machine, runs Java bytecode.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <b>IDE</b>
+        <ul>
+            <li style="list-style:none">
+                Integrated Development Environment, used for writing and debugging code.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <b>Git</b>
+        <ul>
+            <li style="list-style:none">
+                Version control system, tracks changes in code.
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+    
+</body>
+</html>
